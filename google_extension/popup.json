@@ -1,0 +1,14 @@
+
+
+document.getElementById('summarize-btn').addEventListener('click', () => {
+  // Get the prompt from the text area
+  const prompt = document.getElementById('prompt-input').value;
+
+  // Get the result elements
+  const resultText = document.getElementById('result-text');
+  const loading = document.getElementById('loading');
+
+  // Display a test message
+  loading.style.display = 'none'; // Hide the loading indicator
+  resultText.textContent = "Button clicked! Your prompt was: " + prompt;
+});

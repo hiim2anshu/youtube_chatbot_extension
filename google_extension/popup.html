@@ -1,0 +1,56 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Summarizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>YouTube Summarizer</h1>
+  <p>Enter your prompt to get a summary or answer from the video transcript.</p>
+  <div class="input-container">
+    <label for="prompt-input">Your Prompt:</label>
+    <textarea id="prompt-input" placeholder="e.g., Can you summarize this video?" rows="4"></textarea>
+  </div>
+  <button id="summarize-btn">Summarize</button>
+  <div class="result-container">
+    <h3>Result:</h3>
+    <p id="result-text"></p>
+    <div id="loading" style="display:none;">Loading...</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Summarizer</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: Arial, sans-serif; width: 300px; padding: 10px; }
+    textarea { width: 100%; }
+    button { margin-top: 10px; width: 100%; padding: 8px; }
+    #loading { color: blue; font-weight: bold; }
+    .result-container { margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h2>YouTube Summarizer</h2>
+  <p>Enter your prompt to get a summary or answer from the video transcript.</p>
+
+  <div class="input-container">
+    <label for="prompt-input">Your Prompt:</label>
+    <textarea id="prompt-input" placeholder="e.g., Summarize this video" rows="4"></textarea>
+  </div>
+
+  <button id="summarize-btn">Summarize</button>
+
+  <div class="result-container">
+    <h3>Result:</h3>
+    <p id="result-text"></p>
+    <div id="loading" style="display:none;">Loading...</div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
