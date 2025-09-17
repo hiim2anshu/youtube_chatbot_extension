@@ -14,7 +14,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Set your OpenAI API key
-os.environ["OPENAI_API_KEY"] = "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"  # replace with your actual key
+os.environ["OPENAI_API_KEY"] = "open_ai_api_token_key"  # replace with your actual key
 
 @app.route('/process-video', methods=['POST'])
 def process_video():
@@ -101,3 +101,4 @@ def process_video():
 
 if __name__ == '__main__':
     app.run(port=5000, debug=True)
+
